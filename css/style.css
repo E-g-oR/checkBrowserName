@@ -1,0 +1,57 @@
+.button_main {
+  background-color: #4364f7;
+  color: #e8eaed;
+}
+
+.button_main:hover {
+  background-color: #728bf9;
+  color: #202124;
+}
+
+.button_main:focus {
+  background-color: #2c4ddf;
+  color: #e8eaed;
+}
+
+.button_main:active {
+  background-color: #2c4ddf;
+  color: #e8eaed;
+}
+
+.button_primary {
+  background-color: #45f7e2;
+  color: #202124;
+}
+
+.button_primary:hover {
+  background-color: #74f9e9;
+}
+
+.button_primary:focus {
+  background-color: #2edfca;
+}
+
+.button_primary:active {
+  background-color: #2edfca;
+}
+
+body {
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+button,
+input {
+  border-radius: 4px;
+}
+
+button {
+  background-color: #202124;
+  color: #e8eaed;
+  cursor: pointer;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+}

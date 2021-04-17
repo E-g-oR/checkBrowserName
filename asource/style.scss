@@ -1,0 +1,70 @@
+$bodyBGC: #202124;
+$textC: #e8eaed;
+
+$buttonMainBGC: #4364f7;
+$buttonMainText: $textC;
+$buttonMainHoverBGC: #728bf9;
+$buttonMainPressedBGC: #2c4ddf;
+$buttonMainFocusedBGC: #728bf9;
+
+$buttonPrimaryBGC: #45f7e2;
+$buttonPrimaryText: $bodyBGC;
+$buttonPrimaryHoverBGC: #74f9e9;
+$buttonPrimaryPressedBGC: #2edfca;
+$buttonPrimaryFocusedBGC: #74f9e9;
+
+$borderRadius: 4px;
+
+$inputBGC: #fff;
+$inputHoverBGC: #fff;
+$inputPressedBGC: #fff;
+$inputFocusedBGC: #fff;
+$inputText: #000;
+
+.button_main {
+  background-color: $buttonMainBGC;
+  color: $buttonMainText;
+  &:hover {
+    background-color: $buttonMainHoverBGC;
+    color: $bodyBGC;
+  }
+  &:focus {
+    background-color: $buttonMainPressedBGC;
+    color: $buttonMainText;
+  }
+  &:active {
+    background-color: $buttonMainPressedBGC;
+    color: $buttonMainText;
+  }
+}
+.button_primary {
+  background-color: $buttonPrimaryBGC;
+  color: $buttonPrimaryText;
+  &:hover {
+    background-color: $buttonPrimaryHoverBGC;
+  }
+  &:focus {
+    background-color: $buttonPrimaryPressedBGC;
+  }
+  &:active {
+    background-color: $buttonPrimaryPressedBGC;
+  }
+}
+
+body {
+  background-color: $bodyBGC;
+  color: $textC;
+}
+button,
+input {
+  border-radius: $borderRadius;
+}
+button {
+  background-color: $bodyBGC;
+  color: $textC;
+  cursor: pointer;
+}
+input {
+  background-color: $inputBGC;
+  color: $inputText;
+}
